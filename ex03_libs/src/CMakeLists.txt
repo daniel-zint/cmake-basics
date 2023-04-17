@@ -1,0 +1,3 @@
+add_subdirectory(StaticLib)
+add_subdirectory(SharedLib)
+add_subdirectory(libtest)

@@ -1,0 +1,8 @@
+
+{
+    "name": "ex02vcpkg",
+    "version": "1.0.0",
+    "dependencies": [
+        "glog"
+    ]
+}

@@ -1,0 +1,12 @@
+
+{
+    "name": "ex02vcpkg",
+    "version": "1.0.0",
+    "dependencies": [
+        "eigen3"
+    ],
+	"overrides": [
+        { "name": "eigen3", "version": "3.3.7" }
+    ],
+    "builtin-baseline": "3b4dd085b0f5b410d9f587b3c9f7ad08a07449aa"
+}

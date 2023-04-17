@@ -1,0 +1,11 @@
+#pragma once
+
+using float_type = ${float_type};
+
+#ifdef USE_GLOG
+	#include <glog/logging.h>
+	#define PRINT(msg) LOG(INFO) << msg
+#else
+	#include <iostream>
+	#define PRINT(msg) std::cout << msg << std::endl;
+#endif
