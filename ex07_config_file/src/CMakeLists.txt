@@ -1,7 +1,9 @@
 # I like to set an exec name. It is much easier to change afterwards.
 set(EXEC_NAME ${PROJECT_NAME})	# set exec name to the project name
 
+# create a variable named float_type with value float
 set(float_type "float")
+# configure file by replacing CMake variables with their values
 configure_file(cmakeConfig.h.in cmakeConfig.h)
 
 # create a new target

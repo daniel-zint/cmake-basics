@@ -15,6 +15,7 @@
 #pragma warning Unknown dynamic link import/export semantics.
 #endif
 
+	// use either EXPORT or IMPORT depending on whether the library is being compiled or used
 #if SHAREDLIB_COMPILING
 #   define SHAREDLIB_PUBLIC EXPORT
 #else
